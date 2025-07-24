@@ -1,0 +1,24 @@
+# Essentiels pour réduire la taille
+node_modules
+.next
+.git
+README.md
+.env*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs et debug
+*.log
+npm-debug.log*
+
+# Tests
+**/*.test.*
+__tests__
+
+# Docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore
